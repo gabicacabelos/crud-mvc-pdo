@@ -1,0 +1,56 @@
+ .td:hover{
+    background-color: #efe5e5;
+
+
+}
+/* hacer una animacion con todos los a */
+/* Language: css */
+/* Path: resources\css\style.css */
+ a:hover{
+    animation: animacion 1s infinite alternate;
+}
+/* hacer una animacion con todos los a */
+/* Language: css */
+/* Path: resources\css\style.css */
+ @keyframes animacion{
+    from{
+        color: #000;
+    }
+    to{
+        color: #fff;
+    }
+}
+input[type="submit"]:hover{
+    animation: anima 1s infinite alternate;
+}
+@keyframes anima{
+    from{
+        color: #000;
+    }
+    to{
+        color: #fff;
+    }
+}
+h2{
+    animation: fon 6s infinite alternate;
+   
+}
+@keyframes fon{
+   /* que el h2 aparezca rebotando */
+    from{
+      
+         transform: scale(1);
+         transform: perspective(1000px) rotateX(0deg) rotateY(360deg);
+    }
+    to{
+       
+        transform: scale(1.2);
+        transform: perspective(1000px) rotateX(360deg) rotateY(360deg);
+        
+        
+    }
+    
+}
+
+
+
